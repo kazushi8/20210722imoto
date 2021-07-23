@@ -1,51 +1,49 @@
+.head{
+  position: relative;
+}
 .icon{
   margin: 2% 3%;
 }
 .header {
   display: flex;
   justify-content: flex-end;
+  position:absolute;
+  bottom: 10px;
+  right: 60px;
   color: rgba(0,0,0,0.7);
-  position:relative;
-  bottom: 50px;
 }
 .child1{
-  margin-right: 20px;
+  
 }
 .child2{
-  margin-right: 20px;
 }
 .child3{
-  margin-right: 20px;
 }
 .child4{
-  margin-right: 20px;
 }
 .child5{
-  margin-right: 20px;
+
 }
 .child6{
-  margin-right: 20px;
+
+}
+.catchcopy{
+  position: relative;
 }
 .sample1{
   display: flex;
   justify-content: flex-end;
 }
-.relative1{
-  position: relative;
-}
 .word1{
   font-family: 'Yomogi', cursive;
   color:#C71585;
-  font-size: 340%;
+  font-size: 80px;
   position: absolute;
   bottom:380px;
   left: 8%;
 }
 .blue{
   color: #00CED1;
-}
-.relative2{
-  position: relative;
 }
 .word2{
   color:#C71585;
