@@ -220,3 +220,42 @@
   background: red;
   border-radius: 40px;
 }
+.border{
+  border:solid 2px gray;
+}
+.company{
+border:solid 2px gray;
+}
+.companyname{
+border:solid 2px gray;
+}
+.human{
+  border:solid 2px gray;
+}
+.humanname{
+  border:solid 2px gray;
+}
+.local{
+border:solid 2px gray;
+}
+.localname{
+border:solid 2px gray;
+}
+.workers{
+border:solid 2px gray;
+}
+.hundlet{
+border:solid 2px gray;
+}
+.phone{
+  border:solid 2px gray;
+}
+.phonenumber{
+  border:solid 2px gray;
+}
+.money{
+  border:solid 2px gray;
+}
+.totalmoney{
+  border:solid 2px gray;
+}
