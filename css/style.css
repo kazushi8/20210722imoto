@@ -221,41 +221,82 @@
   border-radius: 40px;
 }
 .border{
-  border:solid 2px gray;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 .company{
+  background: #DCDCDC;
+  font-weight: bold;
+  width: 200px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 border:solid 2px gray;
 }
 .companyname{
+  width: 400px;
+  padding-left: 10px;
+  padding-right: 50px;
 border:solid 2px gray;
 }
 .human{
+  background: #DCDCDC;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
   border:solid 2px gray;
 }
 .humanname{
+  padding-left: 10px;
   border:solid 2px gray;
 }
 .local{
+  background: #DCDCDC;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
 border:solid 2px gray;
 }
 .localname{
+  padding-left: 10px;
 border:solid 2px gray;
 }
 .workers{
+  background: #DCDCDC;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
 border:solid 2px gray;
 }
 .hundlet{
+  padding-left: 10px;
 border:solid 2px gray;
 }
 .phone{
+  background: #DCDCDC;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
   border:solid 2px gray;
 }
 .phonenumber{
+  padding-left: 10px;
   border:solid 2px gray;
 }
 .money{
+  background: #DCDCDC;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
   border:solid 2px gray;
 }
 .totalmoney{
+  padding-left: 10px;
   border:solid 2px gray;
 }
