@@ -13,14 +13,19 @@
   color: rgba(0, 0, 0, 0.7);
 }
 .child1 {
+  margin-right: 5%;
 }
 .child2 {
+  margin-right: 5%;
 }
 .child3 {
+  margin-right: 5%;
 }
 .child4 {
+  margin-right: 5%;
 }
 .child5 {
+  margin-right: 5%;
 }
 .child6 {
 }
@@ -73,23 +78,38 @@
   font-weight: bold;
 }
 .topic1 {
+  color:gray;
   border-top: solid 2px gray;
+  border-bottom: solid 2px gray;
+  margin:0 auto;
 }
-.topic2 {
-  border-top: solid 1px gray;
-}
-.topic3 {
-  border-top: solid 1px gray;
-}
-.topic4 {
-  border-top: solid 1px gray;
-}
-.topic5 {
-  border-top: solid 1px gray;
-  border-bottom: solid 1px gray;
-}
-.time {
+
+.time1 {
   color: gray;
+  border-bottom:solid 1px gray;
+  padding: 5px 0px 5px;
+  margin-top: 8px;
+}
+.time2{
+  color: gray;
+  border-bottom:solid 1px gray;
+  padding: 5px 0px 5px;
+}
+.time3{
+  color: gray;
+  border-bottom:solid 1px gray;
+  padding: 5px 0px 5px;
+}
+.time4{
+  color: gray;
+  border-bottom:solid 1px gray;
+  padding: 5px 0px 5px;
+}
+.time5{
+  color: gray;
+  border-bottom:solid 1px gray;
+  padding: 5px 0px 5px;
+  margin-bottom: 8px;
 }
 .category {
   font-size: small;
@@ -97,7 +117,7 @@
   height: 30px;
   color: white;
   background: #c71585;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 .third {
   display: flex;
@@ -148,6 +168,12 @@
   width: 50%;
   height: 50%;
 }
+.blog{
+  width: 80%;
+  height: 100%;
+  background: #dcdcdc;
+  padding: 50px;
+}
 .flex__item {
   display: flex;
   justify-content: space-between;
@@ -181,43 +207,46 @@
   color: #888888;
 }
 .picture {
+  width: 100%;
+  height: 200px;
   display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 .picture1 {
-  position: relative;
+  background-image: url("../img/recruit.png");
+  position: absolute;
+  height: 200px;
+  width: 50%;
+  margin: auto;
 }
 .comment1 {
-  position: absolute;
-  bottom: 130px;
-  left: 250px;
-  font-size: large;
   color: white;
+  font-size: large;
+  margin-top: 90px;
+  margin-left: 35%;
 }
 .picture2 {
-  position: relative;
+  background-image: url("../img/interview.png");
+  position: absolute;
+  height: 200px;
+  width: 50%;
+  margin-left:50%;
 }
 .comment2 {
-  position: absolute;
-  bottom: 130px;
-  left: 250px;
-  font-size: large;
   color: white;
+  font-size: large;
+  margin-top: 90px;
+  margin-left: 35%;
 }
 .message {
   display: flex;
   justify-content: center;
 }
-.botton1 {
-  display: flex;
-  justify-content: center;
-}
-.botton {
-  color: white;
+.button {
+  background-color: red;
   padding-top: 10px;
   width: 200px;
   height: 30px;
-  background: red;
   border-radius: 40px;
 }
 .border{
