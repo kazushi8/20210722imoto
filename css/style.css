@@ -123,20 +123,18 @@
   border-radius: 50%;
 }
 .third {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   height: 350px;
   background: #dcdcdc;
 }
 .word6 {
-  position: absolute;
-  left: 50%;
+  display: flex;
+  justify-content: center;
   color: red;
 }
 .title1 {
-  position: absolute;
-  left: 40%;
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
   font-size: large;
 }
@@ -144,12 +142,12 @@
   width: 40%;
   position: absolute;
   left: 8%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .sample2 {
   position: absolute;
   left: 60%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .main {
   display: flex;
@@ -222,11 +220,19 @@ font-size: small;
   width: 100%;
 }
 .blog{
-  width: 80%;
   height: 100%;
   background: #dcdcdc;
   padding: 50px;
-  margin-left: 5%;
+}
+.service2{
+  font-family: "Yomogi", cursive;
+  color: #c71585;
+  margin: 10px;
+}
+.service3{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
 }
 .flex__item {
   display: flex;
@@ -235,9 +241,12 @@ font-size: small;
 .practice__card {
   width: 30%;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 .card__img img {
   width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .card__content {
   padding: 15px 25px;
@@ -259,6 +268,21 @@ font-size: small;
   display: inline-block;
   margin-left: 20px;
   color: #888888;
+}
+.button3{
+  display: flex;
+  justify-content: center;
+}
+.button2{
+  margin-top: 50px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  color: red;
+  border-color: red;
 }
 .picture {
   width: 100%;
@@ -297,17 +321,18 @@ font-size: small;
   justify-content: center;
 }
 .company2{
-  display: flex;
-  justify-content: center;
   padding-top: 5px;
   font-family: "Yomogi", cursive;
   color: #c71585;
+  margin-left: 23%;
+  margin-bottom: 5px;
 }
 .company1{
-  display: flex;
-  justify-content: center;
   padding-top: 5px;
   padding-bottom: 10px;
+  margin-left: 23%;
+  font-weight: bold;
+  font-size: large;
 }
 .border{
   display: flex;
@@ -319,8 +344,8 @@ font-size: small;
   font-weight: bold;
   width: 200px;
   padding-left: 10px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 border:solid 2px gray;
 }
 .companyname{
@@ -332,8 +357,8 @@ border:solid 2px gray;
 .human{
   background: #DCDCDC;
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 10px;
   border:solid 2px gray;
 }
@@ -344,8 +369,8 @@ border:solid 2px gray;
 .local{
   background: #DCDCDC;
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 10px;
 border:solid 2px gray;
 }
@@ -356,8 +381,8 @@ border:solid 2px gray;
 .workers{
   background: #DCDCDC;
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 10px;
 border:solid 2px gray;
 }
@@ -368,8 +393,8 @@ border:solid 2px gray;
 .phone{
   background: #DCDCDC;
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 10px;
   border:solid 2px gray;
 }
@@ -380,8 +405,8 @@ border:solid 2px gray;
 .money{
   background: #DCDCDC;
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 10px;
   border:solid 2px gray;
 }
@@ -394,12 +419,34 @@ border:solid 2px gray;
   justify-content: center;
 }
 .button {
-  background-color: red;
+  background: linear-gradient(90deg,#FF69B4,#C71585);
   padding-top: 10px;
   padding-bottom: 20px;
   width: 200px;
   height: 40px;
   border-radius: 40px;
   color: white;
-  box-shadow: 0px 2px 2px red;
+  border-color: #C71585;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 0 #C71585;
+}
+.message{
+  margin: 20px;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  color: #C71585;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.grid{
+  display: grid;
+  grid-template-rows: 40px;
+  background: #dcdcdc;
+}
+.grid1{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
 }
