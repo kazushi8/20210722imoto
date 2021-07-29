@@ -70,13 +70,16 @@
 .word4 {
   font-family: "Yomogi", cursive;
   color: #c71585;
-  margin-left: 310px;
+  margin-left: 15%;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 .word5 {
-  margin-left: 310px;
+  margin-left: 15%;
   margin-top: 10px;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 .topic1 {
   color:gray;
@@ -85,42 +88,46 @@
   margin:0 auto;
   width: 70%;
   list-style: none;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .time1 {
   color: gray;
   border-bottom:solid 1px gray;
-  padding: 5px 0px 5px;
-  margin-top: 8px;
+  padding: 5px 0px 15px;
+  margin-top: 30px;
 }
 .time2{
   color: gray;
   border-bottom:solid 1px gray;
-  padding: 5px 0px 5px;
+  padding: 20px 0px 15px;
 }
 .time3{
   color: gray;
   border-bottom:solid 1px gray;
-  padding: 5px 0px 5px;
+  padding: 20px 0px 15px;
 }
 .time4{
   color: gray;
   border-bottom:solid 1px gray;
-  padding: 5px 0px 5px;
+  padding: 20px 0px 15px;
 }
 .time5{
   color: gray;
   border-bottom:solid 1px gray;
-  padding: 5px 0px 5px;
+  padding: 20px 0px 15px;
   margin-bottom: 8px;
 }
 .category {
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: small;
   width: 90px;
   height: 30px;
   color: white;
   background: #c71585;
-  border-radius: 50%;
+  border-radius: 30px;
 }
 .third {
   width: 100%;
